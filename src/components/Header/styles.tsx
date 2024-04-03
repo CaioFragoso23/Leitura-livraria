@@ -6,9 +6,10 @@ export const LeituraHeader = styled.header`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
+  position: fixed;
   top: 0;
-  width: 1200px;
+  width: 100vw;
+  z-index: 1;
   padding: 0 20px;
   height: 80px;
   background-color: #f9f9f9;
@@ -18,7 +19,6 @@ export const LeituraNav = styled.nav`
   display: flex;
   gap: 16px;
   align-items: center;
-
   button {
     border: none;
     display: inline-block;

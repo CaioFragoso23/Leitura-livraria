@@ -2,7 +2,13 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { IoPerson, IoCart, IoHeart, IoSearch } from "react-icons/io5";
-import { LeituraHeader, LeituraSearch, LeituraNav, Dropdown, AccountContent } from "./styles";
+import {
+  LeituraHeader,
+  LeituraSearch,
+  LeituraNav,
+  Dropdown,
+  AccountContent,
+} from "./styles";
 
 export default function Header() {
   const router = useRouter();
