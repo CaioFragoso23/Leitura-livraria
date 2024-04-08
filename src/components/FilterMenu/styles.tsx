@@ -41,7 +41,7 @@ export const Filter = styled.div`
     align-items: center;
     padding: 6px 8px;
     color: rgb(255, 255, 255);
-
+    font-size: 1.2rem;
 `;
 
 export const FilterList = styled.menu`

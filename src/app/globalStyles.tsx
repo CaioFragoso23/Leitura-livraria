@@ -1,6 +1,8 @@
+"use client"
 import { createGlobalStyle } from "styled-components";
+const styled = {createGlobalStyle}
 
-export const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = styled.createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 *{
   padding: 0;
