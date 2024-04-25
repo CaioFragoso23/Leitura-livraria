@@ -26,9 +26,10 @@ export const FilterContainer = styled.div`
     padding: 6px 8px;
   }
   a:hover menu {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5;
+    z-index: 1;
   }
   
 `;
